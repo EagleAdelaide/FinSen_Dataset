@@ -8,6 +8,7 @@ Causality-Driven Feature Selection*](https://arxiv.org/abs/tbc), which has been 
 
 If the code or the paper has been useful in your research, please add a citation to our work:
 
+```
 @inproceedings{wenhao2024enhancing,
   title={Enhancing Financial Market Predictions:
 Causality-Driven Feature Selection},
@@ -16,6 +17,7 @@ Causality-Driven Feature Selection},
   year={2024},
   publisher={Springer},
 }
+```
 
 ### Datasets
 
