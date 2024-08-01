@@ -3,7 +3,7 @@
 [![Pytorch 1.5](https://img.shields.io/badge/pytorch-1.5.1-blue.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/torrvision/focal_calibration/blob/main/LICENSE)
 
-This repository contains the code for [*Enhancing Financial Market Predictions:
+This repository contains the dataset for [*Enhancing Financial Market Predictions:
 Causality-Driven Feature Selection*](https://arxiv.org/abs/tbc), which has been accepted in ADMA 2024.
 
 If the code or the paper has been useful in your research, please add a citation to our work:
@@ -21,4 +21,5 @@ Causality-Driven Feature Selection},
 
 ### Datasets
 
-Most datasets will be downloaded directly on running the code. However, [FinSen] needs to be downloaded manually from the repository.
+[FinSen] can be downloaded manually from the repository as csv file.
+<img width="341" alt="image" src="https://github.com/user-attachments/assets/6ab08486-85b7-4cf6-b4fe-7d4294624f91">
