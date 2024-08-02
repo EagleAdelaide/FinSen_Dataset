@@ -1,4 +1,4 @@
-# Enhancing Financial Market Predictions: Causality-Driven Feature Selection
+## Enhancing Financial Market Predictions: Causality-Driven Feature Selection
 
 This paper introduces FinSen dataset that revolutionizes financial market analysis by integrating economic and financial news articles from 197 countries with stock market data. The dataset’s extensive coverage spans 15 years from 2007 to 2023 with temporal information, offering a rich, global perspective 160,000 records on financial market news. Our study leverages causally validated sentiment scores and LSTM models to enhance market forecast accuracy and reliability.
 
