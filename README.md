@@ -30,6 +30,7 @@ Causality-Driven Feature Selection},
 ![image](https://github.com/user-attachments/assets/f28e670a-7329-409d-81cb-1fe47da22140)
 
 Finsen Data Sample:
+
 <img width="341" alt="image" src="https://github.com/user-attachments/assets/6ab08486-85b7-4cf6-b4fe-7d4294624f91">
 
 We also provide other datasets here, please cite them correspondingly once you used them in your research if any.
