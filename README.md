@@ -68,4 +68,9 @@ We provide the preprocessing file finsen.py for our FinSen dataset under dataloa
 
 ![image](https://github.com/user-attachments/assets/2d9b4dd7-7f59-425c-b812-2cca57719243)
 
+### Dependencies
+
+The code is based on PyTorch under code frame of https://github.com/torrvision/focal_calibration, please cite their work if you found it is useful.
+
+smiley: ☺ Happy Research !
 
