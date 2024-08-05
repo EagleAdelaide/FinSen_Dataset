@@ -2,6 +2,11 @@
 
 This paper introduces FinSen dataset that revolutionizes financial market analysis by integrating economic and financial news articles from 197 countries with stock market data. The dataset’s extensive coverage spans 15 years from 2007 to 2023 with temporal information, offering a rich, global perspective 160,000 records on financial market news. Our study leverages causally validated sentiment scores and LSTM models to enhance market forecast accuracy and reliability.
 
+### Technical Framework
+
+![image](https://github.com/user-attachments/assets/5df3c4a7-2403-460a-ac7f-2d69572fec2f)
+
+
 # Our FinSen Dataset
 [![arXiv](https://img.shields.io/badge/stat.ML-arXiv%3A2006.08437-B31B1B.svg)](https://arxiv.org/abs/2408.01005)
 [![Pytorch 1.5](https://img.shields.io/badge/pytorch-1.5.1-blue.svg)](https://pytorch.org/)
@@ -47,5 +52,14 @@ Information Science and Technology 65(4), 782–796 (2014)
 
 1. DAN-3. 
 
-2. Gobal Pooling CNN. 
+2. Gobal Pooling CNN.
+
+### Models - Regression Prediction
+
+1. LSTM
+
+### Using Sentiment Score from FinSen Predict Result
+
+![image](https://github.com/user-attachments/assets/2d9b4dd7-7f59-425c-b812-2cca57719243)
+
 
