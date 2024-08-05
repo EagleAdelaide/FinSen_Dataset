@@ -38,7 +38,7 @@ Finsen Data Sample:
 
 <img width="341" alt="image" src="https://github.com/user-attachments/assets/6ab08486-85b7-4cf6-b4fe-7d4294624f91">
 
-We also provide other datasets here, please cite them correspondingly once you used them in your research if any.
+We also provide other NLP datasets for text classification tasks here, please cite them correspondingly once you used them in your research if any.
 
 1. 20Newsgroups. Joachims, T., et al.: A probabilistic analysis of the rocchio algorithm with tfidf for
 text categorization. In: ICML. vol. 97, pp. 143–151. Citeseer (1997)
