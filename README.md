@@ -3,12 +3,12 @@
 This paper introduces FinSen dataset that revolutionizes financial market analysis by integrating economic and financial news articles from 197 countries with stock market data. The dataset’s extensive coverage spans 15 years from 2007 to 2023 with temporal information, offering a rich, global perspective 160,000 records on financial market news. Our study leverages causally validated sentiment scores and LSTM models to enhance market forecast accuracy and reliability.
 
 # Our FinSen Dataset
-[![arXiv](https://img.shields.io/badge/stat.ML-arXiv%3A2006.08437-B31B1B.svg)](https://arxiv.org/abs/tbc)
+[![arXiv](https://img.shields.io/badge/stat.ML-arXiv%3A2006.08437-B31B1B.svg)](https://arxiv.org/abs/2408.01005)
 [![Pytorch 1.5](https://img.shields.io/badge/pytorch-1.5.1-blue.svg)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/torrvision/focal_calibration/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/EagleAdelaide/FinSen_Dataset/LICENSE)
 
 This repository contains the dataset for [*Enhancing Financial Market Predictions:
-Causality-Driven Feature Selection*](https://arxiv.org/abs/tbc), which has been accepted in ADMA 2024.
+Causality-Driven Feature Selection*](https://arxiv.org/abs/2408.01005), which has been accepted in ADMA 2024.
 
 If the dataset or the paper has been useful in your research, please add a citation to our work:
 
