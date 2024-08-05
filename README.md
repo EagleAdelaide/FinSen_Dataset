@@ -58,7 +58,7 @@ Information Science and Technology 65(4), 782–796 (2014)
 
 1. LSTM
 
-### Using Sentiment Score from FinSen Predict Result
+### Using Sentiment Score from FinSen Predict Result on S&P500
 
 ![image](https://github.com/user-attachments/assets/2d9b4dd7-7f59-425c-b812-2cca57719243)
 
