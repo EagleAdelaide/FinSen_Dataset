@@ -4,7 +4,8 @@ This paper introduces FinSen dataset that revolutionizes financial market analys
 
 ### Technical Framework
 
-![image](https://github.com/user-attachments/assets/5df3c4a7-2403-460a-ac7f-2d69572fec2f)
+![image](https://github.com/user-attachments/assets/2984d8d1-e827-488e-bc73-ed9677b86b64)
+
 
 
 # Our FinSen Dataset
