@@ -22,7 +22,7 @@ If the dataset or the paper has been useful in your research, please add a citat
 @inproceedings{wenhao2024enhancing,
   title={Enhancing Financial Market Predictions:
 Causality-Driven Feature Selection},
-  author={Wenhao, Liang and Zhengyang, Li and Weitong, Chen},
+  author={Liang, Wenhao and Li, Zhengyang and Chen, Weitong},
   booktitle={Advanced Data Mining and Applications},
   year={2024},
   publisher={Springer},
