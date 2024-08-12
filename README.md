@@ -48,6 +48,7 @@ text categorization. In: ICML. vol. 97, pp. 143–151. Citeseer (1997)
 
 2. **AG News**. Zhang, X., Zhao, J., LeCun, Y.: Character-level convolutional networks for text
 classification. Advances in neural information processing systems 28 (2015)
+
 To download the AG News dataset and obtain its DataLoader in PyTorch, you can use the `torchtext` library, which provides convenient access to various text datasets, including AG News. Below is a step-by-step guide to achieve this:
 
 #### Step 1: Install Required Libraries
