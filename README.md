@@ -43,46 +43,47 @@ Finsen Data Sample:
 
 We also provide other NLP datasets for text classification tasks here, please cite them correspondingly once you used them in your research if any.
 
-1. 20Newsgroups. Joachims, T., et al.: A probabilistic analysis of the rocchio algorithm with tfidf for
+1. **20Newsgroups**. Joachims, T., et al.: A probabilistic analysis of the rocchio algorithm with tfidf for
 text categorization. In: ICML. vol. 97, pp. 143–151. Citeseer (1997)
 
-2. AG News. Zhang, X., Zhao, J., LeCun, Y.: Character-level convolutional networks for text
+2. **AG News**. Zhang, X., Zhao, J., LeCun, Y.: Character-level convolutional networks for text
 classification. Advances in neural information processing systems 28 (2015)
 To download the AG News dataset and obtain its DataLoader in PyTorch, you can use the `torchtext` library, which provides convenient access to various text datasets, including AG News. Below is a step-by-step guide to achieve this:
 
-### Step 0: Install Required Libraries
+#### Step 1: Install Required Libraries
 
 If you don't have `torchtext` installed, you can install it using pip:
 
 ```bash
 pip install torchtext
 ```
+#### Step 2: Utilize ag_news.py in Dataloader
 
-1. **Download the Dataset**:
-   - The `AG_NEWS` dataset is downloaded using `torchtext.datasets.AG_NEWS`. The `split=('train', 'test')` argument returns iterators for the training and test sets.
+  1. **Download the Dataset**:
+     - The `AG_NEWS` dataset is downloaded using `torchtext.datasets.AG_NEWS`. The `split=('train', 'test')` argument returns iterators for the training and test sets.
+  
+  2. **Tokenization**:
+     - The `get_tokenizer('basic_english')` function is used to tokenize the text data.
+  
+  3. **Build Vocabulary**:
+     - The `build_vocab_from_iterator` function constructs a vocabulary from the tokens in the dataset. Special tokens such as `<unk>` (unknown) are added to handle out-of-vocabulary words.
+  
+  4. **Text and Label Pipelines**:
+     - `text_pipeline` converts text into a sequence of token indices based on the vocabulary.
+     - `label_pipeline` converts labels (which are initially strings) into integers.
+  
+  5. **Collate Function**:
+     - `collate_batch` is a custom function that processes batches by padding sequences and converting labels and texts into tensors.
+  
+  6. **DataLoader**:
+     - `DataLoader` is used to create batches of data, shuffle them, and apply the `collate_fn` to each batch.
 
-2. **Tokenization**:
-   - The `get_tokenizer('basic_english')` function is used to tokenize the text data.
-
-3. **Build Vocabulary**:
-   - The `build_vocab_from_iterator` function constructs a vocabulary from the tokens in the dataset. Special tokens such as `<unk>` (unknown) are added to handle out-of-vocabulary words.
-
-4. **Text and Label Pipelines**:
-   - `text_pipeline` converts text into a sequence of token indices based on the vocabulary.
-   - `label_pipeline` converts labels (which are initially strings) into integers.
-
-5. **Collate Function**:
-   - `collate_batch` is a custom function that processes batches by padding sequences and converting labels and texts into tensors.
-
-6. **DataLoader**:
-   - `DataLoader` is used to create batches of data, shuffle them, and apply the `collate_fn` to each batch.
-
-### Customization:
+#### Step 3: Customization:
 
 - You can change the `batch_size` and other parameters in the `DataLoader` to suit your needs. 
 - The tokenizer and vocabulary can be customized for more complex preprocessing.
   
-3. Financial PhraseBank. Malo, P., Sinha, A., Korhonen, P., Wallenius, J., Takala, P.: Good debt or bad debt:
+3. **Financial PhraseBank**. Malo, P., Sinha, A., Korhonen, P., Wallenius, J., Takala, P.: Good debt or bad debt:
 Detecting semantic orientations in economic texts. Journal of the Association for
 Information Science and Technology 65(4), 782–796 (2014)
 
