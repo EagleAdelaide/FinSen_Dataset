@@ -21,12 +21,13 @@ Causality-Driven Feature Selection*](https://arxiv.org/abs/2408.01005), which ha
 If the dataset or the paper has been useful in your research, please add a citation to our work:
 
 ```
-@article{liang2024enhancing,
-  title={Enhancing Financial Market Predictions: Causality-Driven Feature Selection},
+@inproceedings{liang2024enhancing,
+  title={Enhancing financial market predictions: Causality-driven feature selection},
   author={Liang, Wenhao and Li, Zhengyang and Chen, Weitong},
-  journal={arXiv e-prints},
-  pages={arXiv--2408},
-  year={2024}
+  booktitle={International Conference on Advanced Data Mining and Applications},
+  pages={149--163},
+  year={2024},
+  organization={Springer}
 }
 ```
 
